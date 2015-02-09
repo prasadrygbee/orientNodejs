@@ -56,28 +56,3 @@ app.post("/",function(req,res){
 });
 
 app.listen(8080);
-
-/*db.query('select from samplePerson where name=:name', {
-  params: {
-    name: 'Prasad'
-  },
-  limit: 1
-}).then(function (results){
-  console.log(results);
-});*/
-
-/*server.list().then(function (dbs) {
-	console.log('There are ' + dbs.length + ' databases on the server.');
-	
-	var firstDB = dbs[1];
-
-    var orientDB = server.use({
-        name: firstDB.name,
-        username: firstDB.username,
-        password: firstDB.password
-    });
-
-    console.log('Using database: ' + orientDB.name + " : " + orientDB.type);
-}).catch(function (err) {
-	console.log(err);
-});*/
